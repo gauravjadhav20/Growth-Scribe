@@ -1,0 +1,48 @@
+.main{
+    width: 80vw;
+    background-color: rgb(250, 253, 253);
+    margin-left: 10vw;
+    margin-top: 3vh;
+    padding: 35px 50px;
+    border: 5px solid rgba(6, 6, 250, 0.158);
+    border-radius: 15px;
+}
+
+ input{
+    border: 2px solid rgb(166, 166, 170);
+
+}
+ input:hover{
+    background-color: rgba(6, 6, 250, 0.075);
+    border: 2px solid rgba(16, 16, 238, 0.952);
+}
+
+.img{
+    width: 60px;
+    height: 45px;
+    margin-right: 100px;
+}
+
+@media(max-width:400px){
+    .main{
+        width: 80vw;
+        background-color: rgb(250, 253, 253);
+        margin-left: 10vw;
+        margin-top: 3vh;
+        padding: 25px 40px;
+        border: 5px solid rgba(6, 6, 250, 0.158);
+        border-radius: 15px;
+    }
+    .mainSubheading{
+        font-size: 16px;
+    }
+    .mainHeading{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .img{
+        width: 45px;
+        height: 30px;
+        margin-right: 50px;
+    }
+}
